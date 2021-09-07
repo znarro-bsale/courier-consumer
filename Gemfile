@@ -1,0 +1,11 @@
+source 'https://rubygems.org'
+
+gem 'rack', '1.6.4'
+gem 'rake', '10.5.0'
+gem 'typhoeus', '1.1.0'
+gem 'oj', '3.5.0'
+gem 'oj_mimic_json', '1.0.1'
+gem "bunny", '2.3.1'
+gem 'daemons', '1.1.9'
+gem 'i18n', '1.6.0'
+gem 'activesupport', '5.2.4.4'

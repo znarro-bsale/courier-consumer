@@ -1,0 +1,21 @@
+development:
+  bway_api: https://bway-api-imaginex-dev.c9users.io/v1
+  notify_track_url: 'http://ec2-13-56-234-8.us-west-1.compute.amazonaws.com:9494'
+
+  example_mq:
+    host: ec2-13-57-35-233.us-west-1.compute.amazonaws.com
+    port: 5672
+    user: test
+    password: test
+    vhost: development_vhost
+
+production:
+  bway_api: http://api.bway.com/v1
+  notify_track_url: 'http://track-api.bhelp.cl'
+
+  example_mq:
+    host: rabbitmq-cluster-1833915952.us-east-1.elb.amazonaws.com
+    port: 5672
+    user: imasale
+    password: imasale
+    vhost: example_vhost
